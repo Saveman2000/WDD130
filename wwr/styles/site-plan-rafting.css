@@ -9,7 +9,7 @@
     --paragraph-font: 'Roboto', serif
 
 
-    --nav-background-color: #A00364;
+    --nav-background-color: #396e94;
     --nav-link-color: #CFB277;
     --nav-hover-link-color: #0c8348;
     --nav-hover-background-color: #141414; 
@@ -32,7 +32,7 @@ p {
     padding: 25px;
 }
 nav {
-    background-color: var(#A00364);
+    background-color: var(#396e94);
     font-size: 1.2rem;
     display: flex;
 }
