@@ -1,52 +1,66 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 :root {
-    --primary-color: #A00364;
-    --secondary-colour: #D7FCD4;
-    --accent1-colour: #141B0E;
-    --accent2-color: #CFB277;
-
-    --heading-font: 'Roboto', serif
-    --paragraph-font: 'Roboto', serif
-
-
-    --nav-background-color: #396e94;
-    --nav-link-color: #CFB277;
-    --nav-hover-link-color: #0c8348;
-    --nav-hover-background-color: #141414; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body {
-    font-family: var(--roboto);
-    max-width: 960px;
-    padding: 20px;
-}
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--rock-salt);
-    color:var(--primary-color)
-}
-header {
-    padding: 20px;
-    background-color: var(--accent1-colour);
-}
-p {
-    padding: 25px;
-}
+
+
 nav {
-    background-color: var(#396e94);
-    font-size: 1.2rem;
-    display: flex;
+    background-color: steelblue;
+    padding: 10px;
 }
 nav a {
+    color: white;
     display: block;
-    color: var(#CFB277)
-    text-decoration: none;
-    padding: 1rem;
+    padding: 20px;
+    clear:right;
 }
-
-nav a:link, nav a:visited {
-    color: var(#CFB277)
+h1 {
+    color: steelblue;
 }
-nav a:hover {
-    color: var( #0c8348)
-    background-color: var( #141414)
+img {
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+p {
+    padding: 0;
+}
+main {
+    max-width: 840px;
+}
+section {
+    margin: 1em;
+    border: 1px solid rgba (0, 0, 0, 0.2); 
+    padding: 1em;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+section img {
+    width: 200px;
+    height: auto;
+}
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    float: block;
+    margin: 0 0 1rem 1rem;
+}
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
+}
+footer {
+    margin-top: 1em;
+    border-top: 1px solid #000;
+    text-align: center;
+    float: block;
 }
