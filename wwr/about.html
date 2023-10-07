@@ -7,50 +7,67 @@
     <meta name="description" content="enhancing my home page">
     <meta name="author" content="Saviour Aniedi">
 
-    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="stylesheet" href="styles/raftings.css">
 </head>
 <body>
     <header>
-        <div class="logo">
+        <div class="nav_holder">
+            <div class="logo">
+
             <img src="images/logo.png"  alt="Rafting Project logo">
+            </div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">contact</a>
+                <a href="trips.html">page</a>
+                <a href="contact.html">contact</a>
+            
+            </nav>
         </div>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">contact</a>
-            <a href="trips.html">page</a>
-            <a href="contact.html">contact</a>
-        
-        </nav>
+        <style>
+            .grid{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 1px;
+            }
+
+            h1 {
+                border-top: 2px solid black;
+            }
+        </style>                
 
     </header>
-    <main>
-        <div class="hero">
+    <div class="grid">
 
-            <img src="images/background.webp" alt="Hero background Image">
-            <h1>Rafting Adventure Experts</h1>
-            <article>
-                <img src="images/happy-client.webp" alt="Happy Client" >
-               <p> Our mission is to provide expectional raftig experience and create lasting memories for our clients</p>
-            </article>
-        </div>
+        <main>
+            <div class="hero">
 
-        <section>
-            <h2>History</h2>
-            <p>we started our rafting journey with a passion for adventure and a love for nature. Over the years, we have become a leading name in the rafting industry, offering thrilling experiences to adventurers.</p>
-        </section>
-
-        <section>
-            <h2> Adventure Awaits you!</h2>
-            <div class="rafting images">
-                <img src="images/rafting.jpg" alt="Rafting Image">
-                <img src="images/rafting1.jpg" alt="Rafting Image 1">
-                <img src="images/rafting2.jpg" alt="Rafting Image 2">
-                <img src="images/rafting3.jpg" alt="Rafting Image 3">
-                <img src="images/rafting 4.jpg" alt="Rafting Image 4">
+                <img src="images/background.webp" alt="Hero background Image">
+                <h1>Rafting Adventure Experts</h1>
+                <article>
+                    <img src="images/happy-client.webp" alt="Happy Client" >
+                <p> Our mission is to provide expectional raftig experience and create lasting memories for our clients</p>
+                </article>
             </div>
-        </section>
 
-    </main>
+            <section>
+                <h2>History</h2>
+                <p>we started our rafting journey with a passion for adventure and a love for nature. Over the years, we have become a leading name in the rafting industry, offering thrilling experiences to adventurers.</p>
+            </section>
+
+            <section>
+                <h2> Adventure Awaits you!</h2>
+                <div class="rafting images">
+                    <img src="images/rafting.jpg" alt="Rafting Image">
+                    <img src="images/rafting1.jpg" alt="Rafting Image 1">
+                    <img src="images/rafting2.jpg" alt="Rafting Image 2">
+                    <img src="images/rafting3.jpg" alt="Rafting Image 3">
+                    <img src="images/rafting 4.jpg" alt="Rafting Image 4">
+                </div>
+            </section>
+
+        </main>
+    </div>
     <footer>
         <p> &#169;2023 &#9827; Rafting Site Document &#9829; Saviour Aniedi &#9829; WDD130 &#9827;</p>
         <nav class="sociallinks">
