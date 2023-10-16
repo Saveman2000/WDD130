@@ -1,4 +1,5 @@
-/* Reset some default styles for better cross-browser consistency */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 body, h1, h2, p, ul, li, form, label, input, select, textarea, button {
     margin: 0;
     padding: 0;
